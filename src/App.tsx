@@ -10,6 +10,7 @@ function App() {
   return (
     <>
     <Routes>
+      <Route path="/" element={<Login />}/>
        <Route path="/login" element={<Login />} />
        <Route path="/search" element={<Search />} />
        <Route path="/import" element={<Import />} />
