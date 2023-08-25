@@ -8,7 +8,7 @@ const Login = () => {
   return (
     <div className="fullscreen-bg">
       <div className="content">
-        <div className="test w-25 h-auto rounded-5 border">
+        <div className="test h-auto rounded-5 border form">
           <div className="text-center text-white bg-danger pt-3 pb-3 rounded-5">
             <h5>ورود به سامانه جامع اطلاعاتی</h5>
           </div>

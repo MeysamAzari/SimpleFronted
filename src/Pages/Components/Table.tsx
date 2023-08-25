@@ -7,7 +7,7 @@ const Tables = () => {
 let items = [];
 for (let number = 1; number <= 5; number++) {
   items.push(
-    <Pagination.Item key={number} active={number === active}>
+    <Pagination.Item className='rounded-full' key={number} active={number === active}>
       {number}
     </Pagination.Item>,
   );
@@ -113,7 +113,7 @@ for (let number = 1; number <= 5; number++) {
       </tbody>
     </Table>
     <div className='d-flex justify-content-center'>
-    <Pagination size="lg">{items}</Pagination>
+    <Pagination className='rounded-full bg-white' size="lg">{items}</Pagination>
     </div>
     </div>
   )
