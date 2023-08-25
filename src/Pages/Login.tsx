@@ -20,7 +20,7 @@ const Login = () => {
               <Form.Group className="mb-4" controlId="formBasicPassword">
                 <Form.Control type="password" placeholder="رمز عبور" className="text-center"/>
               </Form.Group>
-              <Button variant="white" type="submit" className="text-dark border w-50 bg-white font-weight-bold">
+              <Button variant="white" type="submit" className="text-dark border w-50 bg-white font-weight-bold" href="/search">
                 ورود
               </Button>
             </Form>
