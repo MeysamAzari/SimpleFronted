@@ -1,0 +1,11 @@
+.head {
+    background-color: #B40000;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.hello-wrapper {
+    display: flex;
+    align-items: center;
+    height: 100%;
+  }
